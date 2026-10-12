@@ -1,0 +1,9 @@
+Component,Metric,Value,Interpretation
+Churn prediction,AUC-ROC,0.7709936223131938,Higher is better
+Churn prediction,PR-AUC,0.682526966488058,Higher is better; compare against churn prevalence
+Future-value prediction,RMSE (£),2240.5295457341285,Lower is better
+Future-value prediction,MAE (£),765.7745655544508,Lower is better
+Survival analysis,C-index,0.7763679413336501,Higher indicates better ranking discrimination
+Business impact,Optimized net expected benefit (£),46369.931374345375,Estimated under the configured retention assumptions
+Business impact,Optimized intervention spend (£),4999.999465433713,"Must not exceed budget (£5,000.00)"
+Business impact,Customers selected,613.0,Customers selected by the budget optimizer

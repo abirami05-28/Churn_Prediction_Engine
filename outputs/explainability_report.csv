@@ -1,0 +1,11 @@
+CustomerID,top_driver_1,top_driver_2,top_driver_3,top_interaction,churn_probability,expected_financial_loss
+17450,recency_days,num_orders,total_spend,tenure_days + num_orders,0.1097025463380676,17171.165554800056
+18102,recency_days,num_orders,total_spend,recency_days + avg_days_between_orders,0.0519218328119325,10069.089041072612
+14646,recency_days,num_orders,total_spend,recency_days + avg_days_between_orders,0.036340215314829,7062.132542389832
+12415,recency_days,num_orders,total_spend,recency_days + total_spend,0.0491842384458728,5059.28965246309
+12357,num_orders,tenure_days,total_spend,num_orders + avg_days_between_orders,0.4253543794864519,4312.968000290441
+15838,recency_days,num_orders,total_spend,num_orders + return_rate,0.0906004165747523,3006.629369334061
+14088,recency_days,total_spend,num_orders,tenure_days + num_orders,0.0742016266133555,3002.244785515908
+14156,recency_days,num_orders,total_spend,tenure_days + avg_days_between_orders,0.0282968296563621,2846.9777688271797
+14911,recency_days,num_orders,total_spend,recency_days + avg_days_between_orders,0.025684267515116,2679.992638508001
+12753,recency_days,total_spend,num_items_purchased,tenure_days + num_orders,0.1748393507392127,2453.7239033247383

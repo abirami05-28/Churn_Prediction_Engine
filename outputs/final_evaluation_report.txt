@@ -1,0 +1,19 @@
+CONSOLIDATED MODEL EVALUATION REPORT
+==========================================
+
+              Component                             Metric        Value                                       Interpretation
+       Churn prediction                            AUC-ROC     0.770994                                     Higher is better
+       Churn prediction                             PR-AUC     0.682527   Higher is better; compare against churn prevalence
+Future-value prediction                           RMSE (£)  2240.529546                                      Lower is better
+Future-value prediction                            MAE (£)   765.774566                                      Lower is better
+      Survival analysis                            C-index     0.776368       Higher indicates better ranking discrimination
+        Business impact Optimized net expected benefit (£) 46369.931374 Estimated under the configured retention assumptions
+        Business impact   Optimized intervention spend (£)  4999.999465                   Must not exceed budget (£5,000.00)
+        Business impact                 Customers selected   613.000000           Customers selected by the budget optimizer
+
+BUSINESS IMPACT NOTES
+----------------------
+Configured retention budget: £5,000.00
+Expected net benefit is a model-based estimate, not measured causal impact. It depends on the configured retention success-rate assumption.
+Optimized intervention spend: £5,000.00
+Optimized customers selected: 613
